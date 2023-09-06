@@ -1,0 +1,9 @@
+Audi A8;2.2;2012
+Toyota Corolla;1.8;2020
+BMW X5;3.0;2019
+Mercedes-Benz C-Class;2.0;2021
+Ford Mustang;5.0;2018
+Honda Civic;1.5;2022
+Volkswagen Golf;1.4;2017
+Chevrolet Silverado;6.2;2020
+Subaru Outback;2.5;2021
