@@ -106,7 +106,7 @@ static int getMaxLength(int[] arr){
 
   }
 
-  static boolean inArray(int n, int[] arr) {
+  private static boolean inArray(int n, int[] arr) {
     for (int data : arr) {
       if (n == data) {
         return true;
@@ -115,7 +115,7 @@ static int getMaxLength(int[] arr){
     return false;
   }
 
-  static boolean inArray(int n, int[][] arr) {
+  private static boolean inArray(int n, int[][] arr) {
     for (int[] row : arr) {
       for (int data : row) {
         if (n == data) {
