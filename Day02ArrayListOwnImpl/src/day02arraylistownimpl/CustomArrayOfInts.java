@@ -30,6 +30,7 @@ public class CustomArrayOfInts {
   }
 
   public boolean deleteByValue(int value) {
+// delete first value matching, true if value found, false otherwise
     for (int i = 0; i < size; i++) {
       if (data[i] == value) {
         deleteByIndex(i);
@@ -37,7 +38,7 @@ public class CustomArrayOfInts {
       }
     }
     return false;
-  } // delete first value matching, true if value found, false otherwise
+  }
 
   public void insertValueAtIndex(int value, int index) {
     if (index < 0 || index > size) {
@@ -72,7 +73,7 @@ public class CustomArrayOfInts {
       slice[i] = data[startIdx + i];
     }
     return slice;
-  } // may throw ArrayIndexOutOfBoundsException
+  }
 	
 	@Override
   public String toString() {
@@ -85,7 +86,7 @@ public class CustomArrayOfInts {
     }
     sb.append("]");
     return sb.toString();
-  } // returns String similar to: [3, 5, 6, -23]
+  }
 
   private void expandArray() {
     int[] newData = new int[data.length * 2];
